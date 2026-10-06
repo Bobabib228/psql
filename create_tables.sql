@@ -1,6 +1,6 @@
 create table customers_data (
 customer_id varchar(10) not null primary key,
-company_name varchar(10) not null,
+company_name varchar(50) not null,
 contact_name varchar(10) not null
 );
 
